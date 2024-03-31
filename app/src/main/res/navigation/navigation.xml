@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.foodymoody.Fragments.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/cartFragment2"
+        android:name="com.example.foodymoody.Fragments.CartFragment"
+        android:label="fragment_cart"
+        tools:layout="@layout/fragment_cart" />
+    <fragment
+        android:id="@+id/searchFragment2"
+        android:name="com.example.foodymoody.Fragments.SearchFragment"
+        android:label="fragment_delivery"
+        tools:layout="@layout/fragment_search" />
+    <fragment
+        android:id="@+id/historyFragment2"
+        android:name="com.example.foodymoody.Fragments.HistoryFragment"
+        android:label="fragment_history"
+        tools:layout="@layout/fragment_history" />
+    <fragment
+        android:id="@+id/prrofileFragment"
+        android:name="com.example.foodymoody.Fragments.PrrofileFragment"
+        android:label="fragment_prrofile"
+        tools:layout="@layout/fragment_prrofile" />
+</navigation>
