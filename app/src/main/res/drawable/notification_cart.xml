@@ -10,12 +10,6 @@
       android:fillColor="#00000000"
       android:strokeColor="#000000"
       android:strokeLineCap="round"/>
-  <path
-      android:strokeWidth="1"
-      android:pathData="M23.049,8.297C23.049,11.714 20.316,14.473 16.958,14.473C13.599,14.473 10.866,11.714 10.866,8.297C10.866,4.881 13.599,2.122 16.958,2.122C20.316,2.122 23.049,4.881 23.049,8.297Z"
-      android:fillColor="#FF4B4B"
-      android:strokeColor="#ffffff"/>
-  <path
-      android:pathData="M15.152,11.676H16.628L19.193,6.096V5.016H14.531V6.195H17.699L15.152,11.676Z"
-      android:fillColor="#ffffff"/>
+
+
 </vector>

@@ -7,7 +7,7 @@
     android:layout_height="match_parent"
     tools:context=".Startup.ChooseLocationActivity"
     android:theme="@style/MyTheme"
-    android:background="@color/fragment_bg"
+    android:background="@color/white"
     >
 
     <TextView
