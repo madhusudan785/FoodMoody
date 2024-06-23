@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".Fragments.CongratsBottomSheet">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="207dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:gravity="center_horizontal"
+        android:layout_gravity="center_horizontal"
+        android:text="Congrats Your Order Placed"
+        android:textColor="@color/textcolor"
+        android:fontFamily="@font/yeon_sung"
+
+        android:textSize="32sp" />
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/congrats"
+        android:layout_marginTop="32dp"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+       android:layout_gravity="center"
+        app:lottie_autoPlay="true"
+        app:lottie_rawRes="@raw/congratulations"
+        />
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/go_home"
+        android:layout_width="157dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/gohome"
+        android:layout_gravity="center_horizontal"
+        android:text="Go Home"
+        android:fontFamily="@font/yeon_sung"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        />
+</LinearLayout>
+
+</FrameLayout>

@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".Fragments.CartFragment"
-    android:background="@color/fragment_bg">
+    android:background="@drawable/bg_shape_et">
 
 
     <TextView
@@ -30,13 +30,13 @@
         android:layout_marginTop="8dp"
         android:layout_marginEnd="16dp"
         android:layout_marginBottom="8dp"
-        app:layout_constraintBottom_toTopOf="@+id/button"
+        app:layout_constraintBottom_toTopOf="@+id/proceedButton"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/explore_food" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/proceedButton"
         android:layout_width="225dp"
         android:layout_height="57dp"
         android:layout_marginBottom="8dp"
