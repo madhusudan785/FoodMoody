@@ -1,4 +1,4 @@
-package com.example.foodymoody
+package com.example.foodymoody.PaymentDetails
 
 import android.os.Bundle
 import androidx.activity.enableEdgeToEdge

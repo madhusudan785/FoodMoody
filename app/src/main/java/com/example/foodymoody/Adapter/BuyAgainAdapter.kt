@@ -9,7 +9,7 @@ import com.example.foodymoody.databinding.BuyAgainItemBinding
 class BuyAgainAdapter(private val buyAgainFoodName : ArrayList<String> ,
                       private val buyAgainFoodPrice : ArrayList<String>,
                       private val buyAgainFoodImage : ArrayList<Int>) :
-    RecyclerView.Adapter<BuyAgainAdapter.BuyAgainViewHolder>()
+    RecyclerView.Adapter<com.example.foodymoody.Adapter.BuyAgainAdapter.BuyAgainViewHolder>()
 {
 
     override fun onBindViewHolder(holder: BuyAgainViewHolder, position: Int) {
@@ -17,7 +17,9 @@ class BuyAgainAdapter(private val buyAgainFoodName : ArrayList<String> ,
     }
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): BuyAgainViewHolder {
         val binding = BuyAgainItemBinding.inflate(LayoutInflater.from(parent.context),parent,false)
-        return BuyAgainViewHolder(binding)
+        return BuyAgainViewHolder(
+            binding
+        )
     }
 
     override fun getItemCount(): Int = buyAgainFoodName.size

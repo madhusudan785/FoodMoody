@@ -8,7 +8,7 @@ import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.example.foodymoody.Adapter.CarItemAdapter
-import com.example.foodymoody.PayOutActivity
+import com.example.foodymoody.PaymentDetails.PayOutActivity
 import com.example.foodymoody.R
 import com.example.foodymoody.databinding.FragmentCartBinding
 import java.util.ArrayList

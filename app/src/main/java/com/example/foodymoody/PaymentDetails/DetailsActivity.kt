@@ -1,4 +1,4 @@
-package com.example.foodymoody
+package com.example.foodymoody.PaymentDetails
 
 import android.content.Intent
 import android.os.Bundle

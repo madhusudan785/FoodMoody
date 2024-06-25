@@ -8,6 +8,7 @@ import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
+import com.example.foodymoody.MainActivity
 import com.example.foodymoody.R
 import com.example.foodymoody.databinding.ActivityGetStartedBinding
 import com.example.foodymoody.databinding.ActivityLoginBinding
@@ -27,6 +28,12 @@ class LoginActivity : AppCompatActivity() {
         binding.dontHaveAnAccount.setOnClickListener {
             val intent = Intent (this,Signup ::class.java )
             startActivity(intent)
+
+        }
+        binding.loginButton.setOnClickListener {
+            val intent =Intent(this,MainActivity::class.java)
+            startActivity(intent)
+            finish()
         }
 
     }

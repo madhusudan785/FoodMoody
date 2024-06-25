@@ -3,11 +3,9 @@ package com.example.foodymoody.Adapter
 import android.content.Context
 import android.content.Intent
 import android.view.LayoutInflater
-import android.view.View.OnClickListener
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import com.denzcoskun.imageslider.interfaces.ItemClickListener
-import com.example.foodymoody.DetailsActivity
+import com.example.foodymoody.PaymentDetails.DetailsActivity
 import com.example.foodymoody.databinding.MenuItemBinding
 
 class MenuAdapter(private val menuItemsName: List<String>, private val menuItemPrice: MutableList<String>, private val menuImage: MutableList<Int>, private val requireContext : Context): RecyclerView.Adapter<MenuAdapter.MenuViewHolder>()
@@ -34,7 +32,7 @@ class MenuAdapter(private val menuItemsName: List<String>, private val menuItemP
                 if ( position != RecyclerView.NO_POSITION){
                     itemClickListener?.onItemClick(position)
                 }
-                val intent =Intent(requireContext,DetailsActivity::class.java)
+                val intent =Intent(requireContext, DetailsActivity::class.java)
                 intent.putExtra("MenuItemName",menuItemsName.get(position))
                 intent.putExtra("MenuItemImage",menuImage.get(position))
                 requireContext.startActivity(intent)

@@ -38,7 +38,11 @@ class HistoryFragment : Fragment() {
             R.drawable.dosa,
             R.drawable.idli,
             R.drawable.dalmakhni)
-        buyAgainAdapter = BuyAgainAdapter(buyAgainFoodName,buyAgainFoodPrice,buyAgainFoodImg)
+        buyAgainAdapter = BuyAgainAdapter(
+            buyAgainFoodName,
+            buyAgainFoodPrice,
+            buyAgainFoodImg
+        )
         binding.buyAgainRcView.adapter=buyAgainAdapter
         binding.buyAgainRcView.layoutManager=LinearLayoutManager(requireContext())
     }

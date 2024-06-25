@@ -35,6 +35,7 @@ class CongratsBottomSheet : BottomSheetDialogFragment() {
         binding.goHome.setOnClickListener {
            val intent =Intent(requireContext(),MainActivity::class.java)
             startActivity(intent)
+            requireActivity().finish()
         }
 
         // Return the root view

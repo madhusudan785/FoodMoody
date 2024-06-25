@@ -5,7 +5,7 @@ import android.content.Intent
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import com.example.foodymoody.DetailsActivity
+import com.example.foodymoody.PaymentDetails.DetailsActivity
 import com.example.foodymoody.databinding.PopularItemListBinding
 
 class PopularItemAdapter(private val items : List<String>,private val price:List<String>,private val images:List<Int>,private val requireContext:Context) : RecyclerView.Adapter<PopularItemAdapter.PopularViewHolder>() {
